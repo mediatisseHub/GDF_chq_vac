@@ -1,0 +1,75 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Application Web jQuery Mobile</title>
+<link href="jquery-mobile/jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	});
+</script>
+<style>
+
+</style>
+
+</head> 
+<body> 
+
+<div data-role="page" id="page" data-theme="a">
+	<div data-role="header">
+		<h1>Chèques vacances Gîtes de France</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#gites">Gîtes</a></li>
+            <li><a href="#chambres">Chambres d'hôtes</a></li>
+			<li><a href="#page4">Page 4</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer">
+		<h4>Pied de page</h4>
+	</div>
+</div>
+
+<div data-role="page" id="gites">
+	<div data-role="header">
+		<h1>Votre séjour en gîte...</h1>
+	</div>
+	<div data-role="content">
+    	<ul>	
+		Contenu
+        </ul>
+	</div>
+	<div data-role="footer" >
+		<a href="#page" data-role="button" data-mini="true" data-icon="back">Retour</a>
+	</div>
+</div>
+
+<div data-role="page" id="chambres">
+	<div data-role="header">
+		<h1>Votre séjour en chambre d'hôtes...</h1>
+	</div>
+	<div data-role="content">	
+		Contenu		
+	</div>
+	<div data-role="footer" >
+		<a href="#page" data-role="button" data-mini="true" data-icon="back">Retour</a>
+	</div>
+</div>
+
+<div data-role="page" id="page4">
+	<div data-role="header">
+		<h1>Page 4</h1>
+	</div>
+	<div data-role="content">	
+		Contenu		
+	</div>
+	<div data-role="footer" >
+		<a href="#page" data-role="button" data-mini="true" data-icon="back">Retour</a>
+	</div>
+</div>
+
+</body>
+</html>
